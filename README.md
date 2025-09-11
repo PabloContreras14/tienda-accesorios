@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="frontend/img/Logo-fondo.png" alt="Logo" width="200">
+  <img src="frontend/img/Logo-fondo.png" alt="Logo" width="100%" height="400">
 </p>
 
 # Tienda de accesorios
