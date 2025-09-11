@@ -1,4 +1,4 @@
-![Logo](frontend/img/Logo-fondo.png.png)
+![Logo](frontend/img/Logo-fondo.png)
 # Tienda de accesorios
 
 Esto es un proyecto el cual se creo para la practica del backend, este proyecto esta realizo para poner en practica habilidades aprendidas a lo largo de mi camino en el mundo de la programacion. Al finalizar este proyecto espero tener mejor manejo de backend y de alguna tecnologias basicas.
