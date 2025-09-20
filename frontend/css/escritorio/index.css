@@ -1,0 +1,146 @@
+main img {
+    width: 100%;
+    height: 300px;
+}
+
+main .opciones {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-self: center;
+    height: 30px;
+}
+
+main .opciones span {
+    background-color: #fbfbfb;
+    width: 2.5px;
+    height: 80%;
+    border-radius: 10px;
+    cursor: default;
+    color: #fbfbfb;
+}
+
+main a svg {
+    color: #fbfbfb;
+}
+
+main a:hover svg {
+    color: #F7D65B;
+    transition: 0.5s ease;
+    scale: 1.1;
+}
+
+main .productos-mas-vendidos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+main .productos-mas-vendidos h1 {
+    color: #F7D65B;
+    font-size: 30px;
+    text-align: center;
+    cursor: default;
+}
+
+main .productos-mas-vendidos p {
+    cursor: default;
+}
+
+main .productos-mas-vendidos .cards {
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    width: 100%;
+    padding: 50px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+main .productos-mas-vendidos .cards .card {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+main .productos-mas-vendidos .cards .card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+main .productos-mas-vendidos .cards .card .informacion {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgba(247, 214, 91, 1) 40%, rgba(251, 251, 251, 0) 100%);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+main .productos-mas-vendidos .cards .card .informacion h1 {
+    font-size: 20px;
+    color: #000;
+}
+
+main .productos-mas-vendidos .cards .card:hover .informacion {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+
+main .productos-mas-vendidos .cards::-webkit-scrollbar {
+    width: 12px;  /* ancho de la barra vertical */
+    height: 12px; /* alto de la barra horizontal */
+}
+
+/* Track (fondo del scrollbar) */
+main .productos-mas-vendidos .cards::-webkit-scrollbar-track {
+    background: #333; 
+    border-radius: 10px;
+}
+
+/* Thumb (la parte que se mueve) */
+main .productos-mas-vendidos .cards::-webkit-scrollbar-thumb {
+    background: #f7d55b78; 
+    border-radius: 10px;
+}
+
+/* Hover sobre el thumb */
+main .productos-mas-vendidos .cards::-webkit-scrollbar-thumb:hover {
+    background: #F7D65B;
+}
+
+main .productos-mas-vendidos .cards .card .informacion button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+}
+
+main .productos-mas-vendidos .cards .card .informacion button:hover svg {
+    transition: 0.5s ease;
+    scale: 1.2;
+    color: #fbfbfb;
+    cursor: pointer;
+}
